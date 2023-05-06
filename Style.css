@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#outer {
+    width: 40vw;
+    height: 20vh;
+    background-color: blanchedalmond;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+
+#inputs {
+    display: flex;
+    gap: 10px;
+}
+
+#inputs > input {
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.line {
+    height: 1px;
+    background-color: gray;
+}

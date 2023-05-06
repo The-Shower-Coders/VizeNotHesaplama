@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Hesaplama</title>
+  </head>
+  <body>
+    <div id="outer">
+      <div id="inputs">
+        <input
+          id="vize"
+          type="number"
+          style="margin-left: 10px"
+          placeholder="Vize Notun"
+          max="100"
+        />
+        <input
+          id="final"
+          type="number"
+          style="margin-right: 10px"
+          placeholder="Final Notun"
+          max="100"
+        />
+      </div>
+      <div style="display: flex; justify-content: center; margin-top: 5vh">
+        <div style="display: flex; justify-content: center; flex-direction: column;">
+          <label id="sonuc">Sonuç</label>
+          <div class="line"></div>
+          <label id="durum">Durum</label>
+        </div>
+      </div>
+    </div>
+    <script src="Script.js"></script>
+  </body>
+</html>
